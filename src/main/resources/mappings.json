@@ -1,0 +1,15 @@
+"stock": {
+  "mappings": {
+    "properties": {
+      "name": {
+        "type": "text",
+        "fields": {
+          "ngram": {
+            "type": "text",
+            "analyzer": "my_customer_ngram_analyzer"
+          }
+        }
+      }
+    }
+  }
+}
